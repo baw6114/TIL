@@ -35,7 +35,7 @@
 
 ### Revert
 
-- commit이력을 날리지 않고 마치 없던 일인 것마냥 내용을 전부 되돌린다
+- commit이력을 날리지 않고 되돌아갈 커밋과 그 사이의 커밋 내용들을 마치 없던 일인 것마냥 내용을 전부 되돌린다
 
 ![Untitled Diagram(1)](01_Git기초.assets/UntitledDiagram(1).png)
 
