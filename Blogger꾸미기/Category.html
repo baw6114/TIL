@@ -3,18 +3,35 @@
        <a id='cate-all' href='https://dobbydobob.blogspot.com?'>All </a>
     </li>
     <li class='cate'>
-       <a id='category-IT' href='/search/label/IT?'>IT</a>
+       <a id='category-VR교육과정' href='/search/label/VR교육과정?'>VR교육과정</a>
        <a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'▲':'▼';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>▼</a><div style='display:none'>
              <ul>
             <li></li>
             <li><a id='deta-101' href="/search/label/C++?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++ </a></li>
                 <li><a id='deta-102' href="/search/label/GitHub?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub </a></li>
-                <li><a id='deta-103' href="/search/label/GameDev?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GameDev </a></li>
-                <li><a id='deta-104' href="/search/label/VR?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VR </a></li>
-                <li><a id='deta-105' href="/search/label/취업?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;취업 </a></li>
-                <li><a id='deta-106' href="/search/label/기타?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기타 </a></li>
+                <li><a id='deta-103' href="/search/label/VR?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VR </a></li>
+                <li><a id='deta-104' href="/search/label/취업?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;취업 </a></li>
+                <li><a id='deta-105' href="/search/label/기타?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기타 </a></li>
              </ul>
           </div>
+    </li>
+    <li class='cate'>
+        <a id='category-ITStudy'href="/search/label/IT공부?">IT공부</a>
+        <a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'▲':'▼';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>▼</a><div style='display:none'>
+            <ul>
+                <li></li>
+                <li><a id='deta-201'href="/search/label/자료구조?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자료구조 </a></li>
+                <li><a id='deta-202'href="/search/label/프로그래밍?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프로그래밍 </a></li>
+                <li><a id='deta-203'href="/search/label/알고리즘?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;알고리즘 </a></li>
+            </ul>
+    </li>
+    <li class='cate'>
+        <a id='category-GameDev'href="/search/label/GameDev?">게임개발</a>
+        <a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'▲':'▼';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>▼</a><div style='display:none'>
+            <ul>
+                <li></li>
+                <li><a id='deta-301'href="/search/label/Shoooot?">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shooot </a></li>
+            </ul>
     </li>
  <script>
  function Category(id, label, name)
@@ -49,12 +66,17 @@
  }
  var home = 'https://dobbydobob.blogspot.com';
  var postAll = new TotalPostCnt('cate-all','All','postAll');
- var cate1 = new Category('category-IT','IT','cate1');
+ var cate1 = new Category('category-VR교육과정','VR교육과정','cate1');
  var deta101 = new Category('deta-101','C++','deta101');
  var deta102 = new Category('deta-102','GitHub','deta102');
- var deta103 = new Category('deta-103','GameDev','deta103');
- var deta104 = new Category('deta-104','VR','deta104');
- var deta105 = new Category('deta-105','취업','deta105');
- var deta106 = new Category('deta-106','IT미분류','deta106');
+ var deta103 = new Category('deta-103','VR','deta103');
+ var deta104 = new Category('deta-104','취업','deta104');
+ var deta105 = new Category('deta-105','IT미분류','deta105');
+ var cate2 = new Category('category-ITStudy','IT공부','cate2');
+ var deta201 = new Category('deta-201','자료구조','deta201');
+ var deta202 = new Category('deta-202','프로그래밍','deta202');
+ var deta203 = new Category('deta-203','알고리즘','deta203');
+ var cate3 = new Category('category-GameDev','게임개발','cate3');
+ var deta301 = new Category('deta-301','Shoooot','deta301');
  </script>
  </div>
