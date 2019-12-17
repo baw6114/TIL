@@ -37,14 +37,14 @@
 
 - commit이력을 날리지 않고 마치 없던 일인 것마냥 내용을 전부 되돌린다
 
-![Untitled Diagram(1)](01_Git기초.assets/Untitled Diagram(1).png)
+![Untitled Diagram(1)](01_Git기초.assets/UntitledDiagram(1).png)
 
 - 위 그림과 같이 커밋의 이력이 사라지는 것이 아니라 새로운 커밋을 만들고 
   내용을 커밋1의 내용으로 모두 변경
 
 ### Reset
 
-![Untitled Diagram](01_Git기초.assets/Untitled Diagram.png)
+![Untitled Diagram](01_Git기초.assets/UntitledDiagram.png)
 
 - 위의 그림과 같이 커밋 이후의 시점에서 리셋의 커맨드에 따라 되돌아가는 변경점의 위치가 달라진다
 - Hard / Mixed / Soft가 있다
