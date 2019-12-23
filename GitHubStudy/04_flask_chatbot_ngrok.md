@@ -1,7 +1,5 @@
 # Flask서버 / Chatbot / ngrok
 
-- Chatbot Python Code : https://github.com/baw6114/chatbot
-
 ## 웹 프레임워크
 
 ### flask를 이용한 서버 설치법
@@ -11,10 +9,21 @@
 
 ### 동적 라우팅
 
-- 정적 라우팅과 동적 라우팅에 대해서 아래에서 간단하게 이해해 볼 수 있다 더 자세한 내용은 구글 검색
-- https://m.blog.naver.com/PostView.nhn?blogId=minki0127&logNo=220796459560&proxyReferer=https%3A%2F%2Fwww.google.com%2F
-- 라우팅이란?
-- [https://ggo-ack.tistory.com/entry/%EB%9D%BC%EC%9A%B0%ED%8C%85%EC%9D%B4%EB%9E%80](https://ggo-ack.tistory.com/entry/라우팅이란)
+```python
+@app.route('/post/<int:num>')   #<int:num>을 이용함으로써 입력되는 변수에 따라 동적으로 실행이 가능
+def post(num):
+    posts = ['0번 포스트', '1번 포스트', '2번 포스트']
+    
+    return posts[num]
+
+#실습 : cube뒤에 전달된 수의 세제곱수를 화면에 보이시오
+@app.route('/cube/<int:num>')
+def cube(num):
+   
+    result = num*num*num
+    return str(result)  #str()을 이용해서 int 값을 string값으로 변환시켜서 표현할 수 있다
+
+```
 
 ## Telegram_Chatbot
 
